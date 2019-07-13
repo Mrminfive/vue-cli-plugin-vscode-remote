@@ -1,0 +1,26 @@
+{
+  "name": "vue-cli-plugin-vscode-remote",
+  "version": "0.0.1",
+  "description": ":whale: Vue CLI plugin for Vscode Remote",
+  "main": "index.js",
+  "repository": "git@github.com:Mrminfive/vue-cli-plugin-vscode-remote.git",
+  "author": "minfive <chenxiaowu1994@outlook.com> (http://blog.minfive.com)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ext .js --cache ."
+  },
+  "devDependencies": {
+    "@vue/cli": "^3.9.2",
+    "eslint": "^5.5.0",
+    "eslint-config-ali": "^7.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^3.0.0"
+  },
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+        "pre-commit": "npm lint"
+    }
+  }
+}

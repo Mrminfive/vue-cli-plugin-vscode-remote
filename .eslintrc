@@ -1,0 +1,12 @@
+{
+    "extends": "eslint-config-ali",
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "semi": [2, "never"],
+        "indent": [2, 4],
+        "comma-dangle": "off"
+    }
+}

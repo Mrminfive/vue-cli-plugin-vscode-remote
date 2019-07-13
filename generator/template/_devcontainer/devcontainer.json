@@ -1,0 +1,20 @@
+{
+    "name": "fe-docker-starter",
+    "dockerFile": "Dockerfile",
+    "appPort": ["<%= options.port %>:8080"],
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "octref.vetur",
+        "eamodio.gitlens",
+        <%_ if (options.useTypescript) { _%>
+        "pmneo.tsimporter",
+        <%_ } _%>
+        <%_ if (options.usePrettier) { _%>
+        "esbenp.prettier-vscode",
+        <%_ } _%>
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "yarn install"
+}
