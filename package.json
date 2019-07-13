@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-vscode-remote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ":whale: Vue CLI plugin for Vscode Remote",
   "main": "index.js",
   "repository": "git@github.com:Mrminfive/vue-cli-plugin-vscode-remote.git",
@@ -20,7 +20,7 @@
   "dependencies": {},
   "husky": {
     "hooks": {
-        "pre-commit": "npm run lint"
+      "pre-commit": "npm run lint"
     }
   }
 }
