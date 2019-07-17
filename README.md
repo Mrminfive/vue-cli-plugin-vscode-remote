@@ -20,4 +20,4 @@ cd my-app
 vue add vscode-remote
 ```
 
-You'll be asked some questions regarding how Element is configured in your project. After that, you're good to go.
+You'll be asked some questions regarding how vscode remote is configured in your project. After that, you're good to go.
