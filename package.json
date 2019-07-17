@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-vscode-remote",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": ":whale: Vue CLI plugin for Vscode Remote",
   "main": "index.js",
   "repository": "git@github.com:Mrminfive/vue-cli-plugin-vscode-remote.git",
