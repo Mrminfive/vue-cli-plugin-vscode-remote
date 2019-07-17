@@ -8,6 +8,14 @@
 
 Vscode Remote plugin for `@vue/cli` 3.0.
 
+### About
+
+The Visual Studio Code Remote - Containers extension lets you use a Docker container as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set.
+
+![vscode-remote](./vscode-remote.png)
+
+[more about](https://code.visualstudio.com/docs/remote/containers#_getting-started)
+
 ### Install
 
 First you need to install `@vue/cli` globally (follow the instructions [here](https://cli.vuejs.org/)).
